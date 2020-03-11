@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/home"
+            android:id="@+id/first_img"
+            android:layout_gravity="center"
+            android:layout_width="27dp"
+            android:layout_height="27dp" />
+        <TextView
+            android:text="首页"
+            android:textColor="@drawable/footer_color"
+            android:id="@+id/first_text"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/market"
+            android:id="@+id/second_img"
+            android:layout_gravity="center"
+            android:layout_width="27dp"
+            android:layout_height="27dp" />
+        <TextView
+            android:text="市场"
+            android:textColor="@drawable/footer_color"
+            android:id="@+id/second_text"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/third"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/msg"
+            android:id="@+id/third_img"
+            android:layout_gravity="center"
+            android:layout_width="27dp"
+            android:layout_height="27dp" />
+        <TextView
+            android:text="消息"
+            android:textColor="@drawable/footer_color"
+            android:id="@+id/third_text"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fourth"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/my"
+            android:id="@+id/fourth_img"
+            android:layout_gravity="center"
+            android:layout_width="27dp"
+            android:layout_height="27dp" />
+        <TextView
+            android:text="个人"
+            android:textColor="@drawable/footer_color"
+            android:id="@+id/fourth_text"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

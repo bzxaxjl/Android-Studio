@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="白昼图"
+    android:id="@+id/normal"/>
+<item
+    android:id="@+id/yejing"
+    android:title="夜景图"/>
+<item
+    android:id="@+id/weixing"
+    android:title="卫星图"/>
+<item
+    android:id="@+id/shikuang"
+    android:title="实况图"/>
+<item
+    android:id="@+id/daohang"
+    android:title="导航图"/>
+
+</menu>

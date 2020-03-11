@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击此处交易" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击看垃圾佬照片" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击看小姜姜照片" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击发现新世界" />
+    <Button
+        android:id="@+id/Button_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="空白页"/>
+    <Button
+        android:id="@+id/Button_qiangtui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调戏开发者"/>
+    <Button
+        android:id="@+id/Button_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="课堂测试"/>
+    <Button
+        android:id="@+id/Button_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取系统联系人"/>
+
+    <Button
+        android:id="@+id/Button_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="课堂测试2.0点击会失败" />
+
+</LinearLayout>

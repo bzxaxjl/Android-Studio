@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a12785.mycalculator.N2Activity">
+    <EditText
+        android:id="@+id/n11"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:lines="1"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/n12"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/n11"
+        android:layout_alignBottom="@+id/n11"
+        android:layout_marginStart="64dp"
+        android:lines="1"
+        android:layout_toEndOf="@+id/n11" />
+
+
+    <EditText
+        android:id="@+id/n21"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/n11"
+        android:layout_below="@+id/n11"
+        android:lines="1"
+        android:layout_marginTop="74dp" />
+
+    <EditText
+        android:id="@+id/n22"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/n21"
+        android:layout_alignBottom="@+id/n21"
+        android:lines="1"
+        android:layout_alignStart="@+id/n12" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/n21"
+        android:layout_below="@+id/n21"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="48dp"
+        android:text="计算"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="38dp" />
+
+</RelativeLayout>
